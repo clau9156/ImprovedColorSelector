@@ -3,14 +3,33 @@
 // Functions NEW:
   // Getting a selected color from the user
   // Showing a selected color (possibly a delegator for the following function calls)
+      // function delegator() {
+      // 
+      // }
   // Showing the color as a colored box in CSS
+      // function show colorColoredBox(css) {
+      //  document.getElementById("boxColor").style.backgroundColor = css;
+      // }
   // Showing the color as hex
+      // function showHex(hex) {
+      //  document.getElementById("hex").textContent = hex;
+      // }
   // Showing the color as RGB
+      // function showRgb(rgb) {
+      //  document.getElementById("rgb").textContent = rgb;
+      // }
   // Showing the color as HSL
+      // function showHsl(hsl) {
+      //  document.getElementById("hsl").textContent = hsl;
+      // }
   // Converting hex to RGB
+      // function hexToRgb() {}
   // Converting RGB to CSS usable string, like rgb(100, 123, 192);
+      // function rgbToCss() {}
   // Converting RGB to hex
+      // function rgbToHex() {}
   // Converting RGB to HSL
+      // function rgbToHsl() {}
 
 
 
