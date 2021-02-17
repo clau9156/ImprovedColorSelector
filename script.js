@@ -15,7 +15,7 @@ function init() {
 
 function getSelectedColor(input) {
 //   console.log("getHexInput");
-  input = document.querySelector("input");
+  input = document.querySelector("input").value;
 //   let valueHex = input.value;
 //   // document.querySelector("#colorPicker").addEventListener("input", showBoxColor);
 //   // let valueHex = event.target.value;
@@ -25,16 +25,16 @@ function getSelectedColor(input) {
 //   showHex(valueHex);
 //   showBoxColor(valueHex);
 //   // hexToRgb(valueHex);
-
-// }
+  return input;
+}
 
 // Functions NEW:
   // Getting a selected color from the user
-      function getSelectedColor() {
-        const input = document.querySelector("input").value;
-        input.addEventListener("input", showSelectedColor);
-        return input;
-      }
+      // function getSelectedColor() {
+      //   const input = document.querySelector("input").value;
+      //   input.addEventListener("input", showSelectedColor);
+      //   return input;
+      // }
 
   // Showing a selected color (possibly a delegator for the following function calls)
   function showSelectedColor(input) {    
